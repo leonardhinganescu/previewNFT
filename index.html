@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-xs-4 col-sm-2">
+        <div class="box">
+          <div class="attributes" data-attributes>
+            <div data-attributes-accesorii>
+              <h2>Accesorii</h2>
+            </div>
+            <div data-attributes-background>
+              <h2>Background</h2>
+            </div>
+            <div data-attributes-pupitru>
+              <h2>Pupitru</h2>
+            </div>
+            <div data-attributes-glasses>
+              <h2>Glasses</h2>
+            </div>
+            <div data-attributes-hats>
+              <h2>Hats</h2>
+            </div>
+            <div data-attributes-insigne>
+              <h2>Insigne</h2>
+            </div>
+            <div data-attributes-gun>
+              <h2>Machine Gun</h2>
+            </div>
+            <div data-attributes-uniforms>
+              <h2>Uniforms</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-8 col-sm-10">
+        <div class="box">
+          <div class="row" data-nft-container></div>
+        </div>
+      </div>
+    </div>
+
+    <template data-nft-template>
+      <div class="col-xs-6 col-sm-4 col-lg-3">
+        <div class="box">
+          <div class="nft-image">
+            <img loading="lazy" data-image />
+          </div>
+          <div class="title">
+            <div class="nft-number" data-title-number></div>
+            <div class="nft-rarity" data-title-rarity></div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

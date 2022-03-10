@@ -1,0 +1,33 @@
+body {
+  padding: 0.5rem;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.box {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.nft-image {
+  width: 100%;
+  height: auto;
+}
+
+.nft-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

@@ -1,1 +1,1 @@
-https://textsite.github.io/previewnft/
+https://leonardhinganescu.github.io/previewNFT/
